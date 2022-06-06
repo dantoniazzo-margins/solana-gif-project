@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+myepicproject = "GoNWw8iSsAFpDfK6EA8xFQojGiLW6phG4zboF3eCGTcf"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/dorian/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
